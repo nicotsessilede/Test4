@@ -111,6 +111,3 @@ resource "azurerm_virtual_machine_scale_set" "vmss" {
 
  tags = var.tags
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
