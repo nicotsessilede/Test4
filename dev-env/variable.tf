@@ -201,12 +201,3 @@ variable "max_age_in_seconds" {
   type        = number
   description = "The number of seconds the client should cache a preflight response.  Defaults to 2 days"
 }
-
-variable "enrollment_account_name" {
-  type        = string
-  description = "enrollment account name"
-}
-variable "billing_account_name" {
-  type        = number
-  description = "billing account name"
-}
