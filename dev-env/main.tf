@@ -43,7 +43,5 @@ module "dev-azure-infra" {
     allowed_headers                    = var.allowed_headers
     exposed_headers                    = var.exposed_headers
     max_age_in_seconds                 = var.max_age_in_seconds 
-    enrollment_account_name            = var.enrollment_account_name
-    billing_account_name               = var.billing_account_name
     waf_name                           = var.waf_name
 }
